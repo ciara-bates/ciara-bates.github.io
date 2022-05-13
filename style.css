@@ -5,7 +5,5 @@ section {
 }
 
 hero.style {
-    height: 100px;
     background-color: white;
-    border: solid black 1px;
 }
