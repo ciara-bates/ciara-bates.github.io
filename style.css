@@ -1,9 +1,5 @@
 section {
     height: 500px;
-    background-color: pink;
+    background-color: lightblue;
     border: solid black 1px;
-}
-
-.hero {
-    background-color: white;
 }
