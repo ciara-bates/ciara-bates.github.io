@@ -4,6 +4,6 @@ section {
     border: solid black 1px;
 }
 
-hero.style {
+.hero {
     background-color: white;
 }
