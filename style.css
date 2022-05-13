@@ -3,3 +3,7 @@ section {
     background-color: lightblue;
     border: solid black 1px;
 }
+
+.hero {
+    background-color: pink;
+}
