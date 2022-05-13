@@ -3,3 +3,9 @@ section {
     background-color: pink;
     border: solid black 1px;
 }
+
+.hero {
+    height: 100px;
+    background-color: white;
+    border: solid black 1px;
+}
