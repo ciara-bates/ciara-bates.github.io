@@ -2,7 +2,10 @@
 <html lang="en">
 
 	<head>
-		<link rel = "stylesheet" href="style.css"/>
+		<link rel = "stylesheet" href="src/style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<title>Portfolio</title>
 		<meta charset = "UTF-8"/>
 	</head>
@@ -10,20 +13,96 @@
 	<body>
 		<section class="hero">
 			<nav>
-				<div>LOGO</div>
+				<img class = "logo" src = "src/images/my_logo.png" alt = "personal logo">
 				<ul>
 					<li>About me</li>
 					<li>My projects</li>
 					<li>Contact</li>
 				</ul>
 			</nav>
+
+			<div class = "hero-area">
+				<div class = "hero-text">
+				<h1>Ciara Bates</h1>
+				<p>Aspiring Design Engineer</p>
+				<div class = "icons">
+					<a href = "https://www.instagram.com/?hl=en"><img  class = "ico" src = "src/images/icon1.png" alt = "instragram logo"></a>
+					<a href = "https://www.linkedin.com/feed/"><img  class = "ico" src = "src/images/icon2.png" alt = "LinkedIn logo"></a>
+				</div>
+				</div>
+			</div>
+			
 		</section>
-		<section></section>
-		<section></section>
+
+		<section class = "about-me-section">
+			<div class = "headshot-container">
+				<img class = "headshot" src = "src/images/headshot.jpg" alt = "headshot">
+			</div>
+			<div class = "about-me-text">
+				<h2>About Me</h2>
+				<p1>Hey! My name is Ciara. I am a Design Engineering (MEng) student as the Dyson School of Design Engineering at Imperial College London. I am currently in my second year.</p1>
+			</div>
+		</section>
+
+		<section class = "projects-section">
+			<h2>My Projects</h2>
+			<p2>Take a look through some of my work!</p2>
+			
+			<div class = "project-box-container">
+
+				<a href="Project1.html">
+				<div class = "project-box">
+					<img class = "project-image" src = "src/images/Project box photos/eco-cycler.png" alt = "Eco-cycler hero image">
+					<div class = "project-title">'Eco-cycler'</div>
+					<div class = "project-subtitle">Concept Development</div>
+					<div class = "project-module">Intro to DE, Nov 2020</div>
+				</div>
+				</a>
+
+				<div class = "project-box">
+					<img class = "project-image" src = "src/images/Project box photos/car-project.png" alt = "Car project image">
+					<div class = "project-title">Areodynamics Project</div>
+					<div class = "project-subtitle">subtitle</div>
+					<div class = "project-module">Thermofluids, Oct 2021</div>
+				</div>
+
+				<div class = "project-box">
+					<div class = "project-title">Project 3</div>
+					<div class = "project-subtitle">subititle</div>
+					<div class = "project-module">PMat, Oct 2020</div>
+				</div>
+
+				<div class = "project-box">
+					<div class = "project-title">'Eco-cycler'</div>
+					<div class = "project-subtitle">Concept Development</div>
+					<div class = "project-module">Intro to DE, Nov 2020</div>
+				</div>
+
+				<div class = "project-box">
+					<div class = "project-title">'Eco-cycler'</div>
+					<div class = "project-subtitle">Concept Development</div>
+					<div class = "project-module">Intro to DE, Nov 2020</div>
+				</div>
+
+				<div class = "project-box">
+					<div class = "project-title">'Eco-cycler'</div>
+					<div class = "project-subtitle">Concept Development</div>
+					<div class = "project-module">Intro to DE, Nov 2020</div>
+				</div>
+
+				<div class = "project-box">
+					<div class = "project-title">'Eco-cycler'</div>
+					<div class = "project-subtitle">Concept Development</div>
+					<div class = "project-module">Intro to DE, Nov 2020</div>
+				</div>
+
+			</div>
+		</section>
+
 
 		<footer></footer>
 
-		<script src = "app.js"></script>
+		<script src = "src/app.js"></script>
 	</body>
 		
 </html>

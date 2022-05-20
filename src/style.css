@@ -1,0 +1,209 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+    height : 100vh;
+    background-color: pink;
+    color: rgb(105, 36, 59);
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: lightblue
+}
+
+nav{
+    display: flex;
+    justify-content: space-between
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+li{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+li:hover{
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hero-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(169, 185, 220);
+    padding: 5px;
+}
+
+.button:hover{
+    background-color: rgb(69, 61, 133);
+    color: white;
+    cursor: pointer;
+}
+
+.ico{
+    height: 50px;
+    margin: 10px;
+}
+
+.logo{
+    height: 80px;
+    margin: 20px;
+}
+
+.about-me-text{
+    margin-left: 30px;
+}
+
+.about-me-section{
+    display: flex;
+    justify-content: space-round;
+    padding: 30px;
+    background-color: rgb(109, 166, 195);
+}
+
+.projects-section{
+    background-color:rgb(69, 61, 133);
+    padding: 30px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.headshot{
+    height: 200px;
+    border-radius: 100px;
+}
+
+.project-box-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-round;
+}
+
+.project-box{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(60, 51, 86);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image{
+    size-adjust:inherit;
+    border-radius: 20px;
+}
+
+.project-title{
+    display: none;
+}
+
+.project-subtitle{
+    display: none;
+}
+
+.project-module{
+    display: none;
+}
+
+.project-box:hover .project-title{
+    display: block;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-box:hover .project-subtitle{
+    display:block;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.project-box:hover .project-module{
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-box:hover .project-image{
+    display: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+
+
