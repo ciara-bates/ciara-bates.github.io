@@ -4,6 +4,13 @@ body {
 
 .hero {
     height : 100vh;
+    background-color: rgb(209, 181, 191);
+    color: rgb(105, 36, 59);
+    font-size: 40px;
+}
+
+.hero-2 {
+    height : 125px;
     background-color: pink;
     color: rgb(105, 36, 59);
     font-size: 40px;
@@ -202,8 +209,10 @@ a:hover{
 
 a:active{
     text-decoration: none;
-    color: black;
 }
 
-
+.project-section{
+    padding: 50px;
+    background-color: rgb(201, 235, 227);
+}
 
