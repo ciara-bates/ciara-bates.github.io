@@ -4,21 +4,21 @@ body {
 
 .hero {
     height : 100vh;
-    background-color: rgb(209, 181, 191);
-    color: rgb(105, 36, 59);
+    background-color: rgb(238, 119, 138);
+    color: rgb(81, 45, 65);
     font-size: 40px;
 }
 
 .hero-2 {
     height : 125px;
-    background-color: pink;
-    color: rgb(105, 36, 59);
+    background-color: white;
+    color: rgb(81, 45, 65);
     font-size: 40px;
 }
 
 footer {
     height: 500px;
-    background-color: lightblue
+    background-color: rgb(238, 119, 138);
 }
 
 nav{
@@ -80,12 +80,12 @@ p{
     text-align: center;
     font-size: 22px;
     font-weight: 700;
-    background-color: rgb(169, 185, 220);
+    background-color: white;
     padding: 5px;
 }
 
 .button:hover{
-    background-color: rgb(69, 61, 133);
+    background-color: rgb(238, 119, 138);
     color: white;
     cursor: pointer;
 }
@@ -108,11 +108,11 @@ p{
     display: flex;
     justify-content: space-round;
     padding: 30px;
-    background-color: rgb(109, 166, 195);
+    background-color: rgb(81, 45, 65);
 }
 
 .projects-section{
-    background-color:rgb(69, 61, 133);
+    background-color:white;
     padding: 30px;
 }
 
@@ -140,7 +140,7 @@ h2{
     margin: 10px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px rgb(60, 51, 86);
+    box-shadow: 5px 5px 20px rgb(86, 81, 101);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -213,6 +213,6 @@ a:active{
 
 .project-section{
     padding: 50px;
-    background-color: rgb(201, 235, 227);
+    background-color: white
 }
 
