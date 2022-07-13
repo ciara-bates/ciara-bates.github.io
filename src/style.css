@@ -11,19 +11,19 @@ body {
 
 .hero-2 {
     height : 125px;
-    background-color: white;
     color: rgb(81, 45, 65);
     font-size: 40px;
 }
 
 footer {
-    height: 500px;
+    height: 100px;
     background-color: rgb(238, 119, 138);
 }
 
 nav{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    background-color: rgb(238, 119, 138);
 }
 
 ul{
@@ -48,9 +48,12 @@ li:hover{
 }
 
 h1{
-    font-size: 70px;
-    font-weight: 800;
     margin: 0;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Spectral', serif ;
+    color: white;
 }
 
 p{
@@ -108,18 +111,24 @@ p{
     display: flex;
     justify-content: space-round;
     padding: 30px;
-    background-color: rgb(81, 45, 65);
+    background-color: white;
+    color: rgb(81, 45, 65);
 }
 
 .projects-section{
     background-color:white;
     padding: 30px;
+    color: rgb(81, 45, 65);
 }
 
 h2{
     font-size: 40px;
     margin: 5px;
     margin-bottom: 10px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Spectral', serif ;
+    color: rgb(238, 119, 138);
 }
 
 .headshot{
@@ -140,7 +149,7 @@ h2{
     margin: 10px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px rgb(86, 81, 101);
+    box-shadow: 3px 3px 10px rgb(136, 136, 136);
     text-align: center;
     display: flex;
     flex-direction: column;
