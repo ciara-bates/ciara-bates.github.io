@@ -225,3 +225,7 @@ a:active{
     background-color: white
 }
 
+.footer-text{
+    text-align: center;
+    padding: 20px;
+}
