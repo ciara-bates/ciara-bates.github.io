@@ -2,22 +2,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.hero {
-    height : 100vh;
-    background-color: rgb(238, 119, 138);
-    color: rgb(81, 45, 65);
-    font-size: 40px;
-}
-
-.hero-2 {
-    height : 125px;
-    color: rgb(81, 45, 65);
-    font-size: 40px;
-}
-
 footer {
     height: 100px;
     background-color: rgb(238, 119, 138);
+}
+
+.footer-text{
+    text-align: center;
+    padding: 20px;
 }
 
 nav{
@@ -43,14 +35,31 @@ li{
 }
 
 li:hover{
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     cursor: pointer;
+}
+
+hr.rounded {
+    padding-top: 0px;
+    border-top: 6px solid white;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* ----------------------------------- index page --------------------------------------*/ 
+.hero {
+    height : 100vh;
+    background-color: rgb(238, 119, 138);
+    color: rgb(81, 45, 65);
+    font-size: 40px;
 }
 
 h1{
     margin: 0;
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 900;
     font-style: italic;
     font-family: 'Spectral', serif ;
     color: white;
@@ -68,29 +77,12 @@ p{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .hero-text{
+    margin-top: 60px;
     text-align: center;
-    margin-bottom: 60px;
-}
-
-.button{
-    width: 120px;
-    height: 30px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    background-color: white;
-    padding: 5px;
-}
-
-.button:hover{
-    background-color: rgb(238, 119, 138);
-    color: white;
-    cursor: pointer;
 }
 
 .ico{
@@ -125,7 +117,7 @@ h2{
     font-size: 40px;
     margin: 5px;
     margin-bottom: 10px;
-    font-weight: 800;
+    font-weight:900;
     font-style: italic;
     font-family: 'Spectral', serif ;
     color: rgb(238, 119, 138);
@@ -210,22 +202,40 @@ a:link{
 
 a:visited{
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover{
     text-decoration: none;
+    color: inherit;
 }
 
 a:active{
     text-decoration: none;
+    color: inherit;
 }
+
+/* ---------------------------- project page ------------------------------- */ 
 
 .project-section{
     padding: 50px;
-    background-color: white
+    background-color: white;
+    align-items: center;
 }
 
-.footer-text{
-    text-align: center;
-    padding: 20px;
+.hero-2 {
+    height : 20vh;
+    background-color: rgb(238, 119, 138);
+    color: rgb(81, 45, 65);
+    font-size: 40px;
 }
+
+h3{
+    font-family: 'Spectral', serif ;
+    font-size: 50px;
+    font-weight:900;
+    font-style: italic;
+    color: rgb(238, 119, 138);
+    text-align: center;
+}
+
