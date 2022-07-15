@@ -26,17 +26,29 @@ ul{
     display: flex;
     width: 500px;
     justify-content: space-around;
+    margin-right:4vw;
 }
 
-li{
+.list-item{
     text-decoration: none;
-    font-size: 24px;
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
     padding: 10px;
     border-radius: 20px;
     align-items: center;
 }
 
-li:hover{
+.line{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    padding: 10px;
+}
+
+.list-item:hover{
     background-color: white;
     cursor: pointer;
 }
@@ -173,6 +185,7 @@ h2{
     font-weight: 800;
     cursor: pointer;
     text-decoration: none;
+    color: rgb(238, 119, 138);
 }
 
 .project-box:hover .project-subtitle{
@@ -250,6 +263,7 @@ a:active{
     font-style: italic;
     text-align: center;
     height: 10px;
+    color: rgb(81, 45, 65);
 }
 
 .subtitle-2{ 
@@ -258,6 +272,7 @@ a:active{
     font-weight:500;
     text-align: center;
     height: 10px;
+    color: rgb(81, 45, 65);
 }
 
 .project-intro{ 
@@ -265,6 +280,9 @@ a:active{
     margin-right: 15vw;
     font-size: 16px;
     font-weight:300;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(81, 45, 65);
 }
 
 .pdf-container{
